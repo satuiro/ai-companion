@@ -23,7 +23,8 @@ export default function RootLayout({
       <html lang="en" suppressHydrationWarning>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
           <body className={cn("bg-secondary", inter.className)}>
-            {children} 
+            {/*This is a comment*/}
+            {children}
             <Toaster />
           </body>
         </ThemeProvider>
@@ -31,3 +32,4 @@ export default function RootLayout({
     </ClerkProvider>
   );
 }
+
